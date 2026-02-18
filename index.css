@@ -1,0 +1,67 @@
+/* Importação de Fontes profissionais */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Layout do Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Título com Estilo Premium */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Texto de Apoio */
+p {
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+/* Botão de Alta Conversão */
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 45px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Estilo da Imagem da Lais */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
