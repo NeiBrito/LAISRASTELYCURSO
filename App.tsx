@@ -1,4 +1,4 @@
-
+import './index.css';
 import React, { useState, useEffect } from 'react';
 import { AuthState, User, UserRole, UserStatus } from './types';
 import { firebase } from './services/mockFirebase';
