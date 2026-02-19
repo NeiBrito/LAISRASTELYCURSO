@@ -24,7 +24,7 @@ function App() {
           <button className="cta-button">Quero me inscrever agora →</button>
         </div>
         <div className="hero-image">
-        <img src="https://raw.githubusercontent.com/NeiBrito/LAISRASTELYCURSO/main/public/100.jpg" alt="Lais" />
+       <img src="https://raw.githubusercontent.com/NeiBrito/LAISRASTELYCURSO/main/public/100.jpg" alt="Lais" />
         </div>
       </section>
     </div>
