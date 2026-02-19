@@ -6,13 +6,13 @@ function App() {
     <div className="landing-page">
       <header className="navbar">
         <div className="logo-area">
-          <span className="logo-icon" style={{ background: '#e91e63', color: 'white', padding: '5px 12px', borderRadius: '50%', fontWeight: 'bold' }}>L</span>
+          <span className="logo-icon">L</span>
           <span style={{ fontWeight: 'bold', marginLeft: '10px' }}>Lais Rastely</span>
         </div>
         <nav className="menu-links">
-          <a href="#beneficios" style={{ margin: '0 15px', textDecoration: 'none', color: '#666' }}>Benefícios</a>
-          <a href="#depoimentos" style={{ margin: '0 15px', textDecoration: 'none', color: '#666' }}>Depoimentos</a>
-          <a href="#precos" style={{ margin: '0 15px', textDecoration: 'none', color: '#666' }}>Preços</a>
+          <a href="#beneficios">Benefícios</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#precos">Preços</a>
         </nav>
         <div className="nav-buttons">
           <button className="btn-enroll">Matricular Agora</button>
@@ -20,7 +20,7 @@ function App() {
       </header>
 
       <section className="hero-container">
-        <div className="hero-text" style={{ flex: 1 }}>
+        <div className="hero-text">
           <span style={{ color: '#e91e63', fontWeight: 'bold' }}>✨ MÉTODO EXCLUSIVO 2024</span>
           <h1>Transforme sua <em className="pink-text">autoridade</em> em lucro real.</h1>
           <p style={{ fontSize: '1.2rem', color: '#444', marginBottom: '30px' }}>
@@ -28,7 +28,7 @@ function App() {
           </p>
           <button className="cta-button">Quero me inscrever agora →</button>
         </div>
-        <div className="hero-image" style={{ flex: 1 }}>
+        <div className="hero-image">
           <img src="https://laisrastelycurso.vercel.app/100.jpg" alt="Lais Rastely" />
         </div>
       </section>
