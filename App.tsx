@@ -4,33 +4,34 @@ import './index.css';
 function App() {
   return (
     <div className="landing-page">
-      <header style={{ display: 'flex', justifyContent: 'space-between', padding: '20px 8%', alignItems: 'center' }}>
-        <div style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>
-          <span style={{ background: '#e91e63', color: 'white', padding: '5px 12px', borderRadius: '50%', marginRight: '10px' }}>L</span>
-          Lais Rastely
+      <header className="navbar">
+        <div className="logo-area">
+          <span className="logo-icon" style={{ background: '#e91e63', color: 'white', padding: '5px 12px', borderRadius: '50%', fontWeight: 'bold' }}>L</span>
+          <span style={{ fontWeight: 'bold', marginLeft: '10px' }}>Lais Rastely</span>
         </div>
-        <button style={{ backgroundColor: '#e91e63', color: 'white', padding: '10px 25px', borderRadius: '50px', border: 'none', fontWeight: 'bold', cursor: 'pointer' }}>
-          Matricular Agora
-        </button>
+        <nav className="menu-links">
+          <a href="#beneficios" style={{ margin: '0 15px', textDecoration: 'none', color: '#666' }}>Benefícios</a>
+          <a href="#depoimentos" style={{ margin: '0 15px', textDecoration: 'none', color: '#666' }}>Depoimentos</a>
+          <a href="#precos" style={{ margin: '0 15px', textDecoration: 'none', color: '#666' }}>Preços</a>
+        </nav>
+        <div className="nav-buttons">
+          <button className="btn-enroll">Matricular Agora</button>
+        </div>
       </header>
 
-      <main style={{ display: 'flex', padding: '60px 8%', alignItems: 'center', gap: '40px' }}>
-        <div style={{ flex: 1 }}>
+      <section className="hero-container">
+        <div className="hero-text" style={{ flex: 1 }}>
           <span style={{ color: '#e91e63', fontWeight: 'bold' }}>✨ MÉTODO EXCLUSIVO 2024</span>
-          <h1 style={{ fontSize: '3.5rem', margin: '20px 0', lineHeight: '1.1' }}>
-            Transforme sua <em style={{ color: '#e91e63', fontStyle: 'italic' }}>autoridade</em> em lucro real.
-          </h1>
+          <h1>Transforme sua <em className="pink-text">autoridade</em> em lucro real.</h1>
           <p style={{ fontSize: '1.2rem', color: '#444', marginBottom: '30px' }}>
             O método completo para mulheres que desejam construir um posicionamento de alto valor e vender todos os dias no digital.
           </p>
-          <button style={{ backgroundColor: '#e91e63', color: 'white', padding: '20px 40px', borderRadius: '12px', border: 'none', fontWeight: 'bold', fontSize: '1.1rem', cursor: 'pointer' }}>
-            Quero me inscrever agora →
-          </button>
+          <button className="cta-button">Quero me inscrever agora →</button>
         </div>
-        <div style={{ flex: 1 }}>
-          <img src="https://laisrastelycurso.vercel.app/100.jpg" alt="Lais" style={{ width: '100%', borderRadius: '30px', boxShadow: '20px 20px 0px #fce4ec' }} />
+        <div className="hero-image" style={{ flex: 1 }}>
+          <img src="https://laisrastelycurso.vercel.app/100.jpg" alt="Lais Rastely" />
         </div>
-      </main>
+      </section>
     </div>
   );
 }
